@@ -6,7 +6,7 @@ import matplotlib.pyplot as plt
 df_tickets = pd.read_excel('Report_ITSrvices_8Meses(2).xlsx')
 
 # Configuração do Streamlit
-st.title("Análise de Atendimentos de TI")
+st.title("Análise do Relatório de Serviços")
 
 # Exibindo a tabela de dados
 st.subheader("Dados de Atendimentos de TI")
