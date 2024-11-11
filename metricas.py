@@ -42,7 +42,7 @@ ax3.set_title("Contagem de Tickets por Assunto")
 st.pyplot(fig3)
 
 # 4. Tickets por Nível de Urgência
-st.subheader("Tickets por Nível de Urgência")
+st.subheader("Contagem de Tickets por Nível de Urgência")
 urgencia_counts = df_tickets['Urgência'].value_counts()
 fig4, ax4 = plt.subplots()
 urgencia_counts.plot(kind='bar', color='salmon', ax=ax4)
