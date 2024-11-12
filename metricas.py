@@ -7,6 +7,9 @@ df_tickets = pd.read_excel('Report_ITSrvices_8Meses(2).xlsx')
 
 # Configuração do Streamlit
 st.title("Análise do Relatório de Serviços")
+st.markdown("Pedro Henrique Foregati Casacchi
+Afonso Cesar
+Vinicius Lopes.")
 
 # Exibindo a tabela de dados
 st.subheader("Dados de Atendimentos de TI")
@@ -50,3 +53,5 @@ ax4.set_title("Tickets por Nível de Urgência")
 ax4.set_xlabel("Urgência")
 ax4.set_ylabel("Número de Tickets")
 st.pyplot(fig4)
+
+st.subheader("Fim")
